@@ -42,6 +42,9 @@
 		1958B5F1216768D900CAF1D3 /* unwrap+SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1958B5F0216768D900CAF1D3 /* unwrap+SharedSequence.swift */; };
 		1958B5F621676ECB00CAF1D3 /* unrwapTests+SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1958B5F521676ECB00CAF1D3 /* unrwapTests+SharedSequence.swift */; };
 		1A8741AC20745A91004BB762 /* UIViewPropertyAnimatorTests+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8741AB20745A91004BB762 /* UIViewPropertyAnimatorTests+Rx.swift */; };
+		3122502E2AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312250232AAEBC9600ABF0DC /* Observable+Alias.swift */; };
+		3122502F2AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312250232AAEBC9600ABF0DC /* Observable+Alias.swift */; };
+		312250302AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312250232AAEBC9600ABF0DC /* Observable+Alias.swift */; };
 		3D11958B1FCAD9AE0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D11958C1FCAD9AF0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D638DEC1DC2B2D50089A590 /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C6D911C47B2B20092101A /* RxSwiftExt.framework */; };
@@ -401,6 +404,7 @@
 		1958B5F521676ECB00CAF1D3 /* unrwapTests+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "unrwapTests+SharedSequence.swift"; sourceTree = "<group>"; };
 		1A8741AB20745A91004BB762 /* UIViewPropertyAnimatorTests+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewPropertyAnimatorTests+Rx.swift"; sourceTree = "<group>"; };
 		1AA8395A207451D5001C49ED /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		312250232AAEBC9600ABF0DC /* Observable+Alias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Alias.swift"; sourceTree = "<group>"; };
 		3D638DE71DC2B2D40089A590 /* RxSwiftExtTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftExtTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D638E1E1DC2B3A40089A590 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		3DB034F61DC376D9002C6A26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
@@ -767,6 +771,7 @@
 		BF515CDE1F3F36F200492640 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				312250232AAEBC9600ABF0DC /* Observable+Alias.swift */,
 				BF515CDF1F3F370600492640 /* curry.swift */,
 			);
 			path = Tools;
@@ -1229,6 +1234,7 @@
 				4A73956C206D501300E2BE2D /* UIViewPropertyAnimator+Rx.swift in Sources */,
 				538607B11E6F334B000361DE /* mapTo.swift in Sources */,
 				538607AA1E6F334B000361DE /* apply.swift in Sources */,
+				3122502E2AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */,
 				78199613228449CA00340AF4 /* UIScrollView+reachedBottom.swift in Sources */,
 				C4D2153F20118A81009804AE /* ofType.swift in Sources */,
 				538607B41E6F334B000361DE /* ObservableType+Weak.swift in Sources */,
@@ -1311,6 +1317,7 @@
 				62512C7A1F0EAF950083A89F /* unwrap.swift in Sources */,
 				780CB21620A0ED1C00FD3F39 /* toSortedArray.swift in Sources */,
 				7824859B2298ADE2005CF8CC /* mergeWith.swift in Sources */,
+				3122502F2AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */,
 				62512C741F0EAF950083A89F /* ObservableType+Weak.swift in Sources */,
 				B69B454A2190C3AE00F30418 /* count.swift in Sources */,
 				62512C6F1F0EAF950083A89F /* ignoreErrors.swift in Sources */,
@@ -1396,6 +1403,7 @@
 				E39C41EB1F18B08A007F2ACD /* unwrap.swift in Sources */,
 				780CB21720A0ED1C00FD3F39 /* toSortedArray.swift in Sources */,
 				7824859C2298ADE2005CF8CC /* mergeWith.swift in Sources */,
+				312250302AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */,
 				E39C41E51F18B08A007F2ACD /* ObservableType+Weak.swift in Sources */,
 				B69B454B2190C3AF00F30418 /* count.swift in Sources */,
 				E39C41E01F18B08A007F2ACD /* ignoreErrors.swift in Sources */,
