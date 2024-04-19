@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -24,9 +24,6 @@
 /* Begin PBXBuildFile section */
 		05A2BBB0247DAD2A007B54D6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A2BBAF247DAD2A007B54D6 /* RxCocoa.framework */; };
 		05A2BBB4247DB0B8007B54D6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A2BBB3247DB0B8007B54D6 /* RxCocoa.framework */; };
-		074B9D2B2642A8EA009699A3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B9CF72642A223009699A3 /* RxCocoa.framework */; };
-		074B9D2C2642A8EB009699A3 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B9CF92642A223009699A3 /* RxRelay.framework */; };
-		074B9D2D2642A8EB009699A3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B9CF52642A223009699A3 /* RxSwift.framework */; };
 		0D4D8D3E25CB005800C6971D /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62512C581F0EAED20083A89F /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D4D8D3F25CB005800C6971D /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62512CA61F0EB1BD0083A89F /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D4D8D4C25CB079A00C6971D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A2BBAF247DAD2A007B54D6 /* RxCocoa.framework */; };
@@ -45,6 +42,9 @@
 		3122502E2AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312250232AAEBC9600ABF0DC /* Observable+Alias.swift */; };
 		3122502F2AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312250232AAEBC9600ABF0DC /* Observable+Alias.swift */; };
 		312250302AAEBC9700ABF0DC /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312250232AAEBC9600ABF0DC /* Observable+Alias.swift */; };
+		31665F092BD246F000044A73 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31665EFC2BD246F000044A73 /* RxCocoa.xcframework */; };
+		31665F0B2BD246F000044A73 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31665F072BD246F000044A73 /* RxRelay.xcframework */; };
+		31665F0D2BD246F000044A73 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31665F082BD246F000044A73 /* RxSwift.xcframework */; };
 		3D11958B1FCAD9AE0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D11958C1FCAD9AF0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D638DEC1DC2B2D50089A590 /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C6D911C47B2B20092101A /* RxSwiftExt.framework */; };
@@ -405,6 +405,9 @@
 		1A8741AB20745A91004BB762 /* UIViewPropertyAnimatorTests+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewPropertyAnimatorTests+Rx.swift"; sourceTree = "<group>"; };
 		1AA8395A207451D5001C49ED /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		312250232AAEBC9600ABF0DC /* Observable+Alias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Alias.swift"; sourceTree = "<group>"; };
+		31665EFC2BD246F000044A73 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		31665F072BD246F000044A73 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		31665F082BD246F000044A73 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		3D638DE71DC2B2D40089A590 /* RxSwiftExtTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftExtTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D638E1E1DC2B3A40089A590 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		3DB034F61DC376D9002C6A26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
@@ -499,9 +502,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074B9D2D2642A8EB009699A3 /* RxSwift.framework in Frameworks */,
-				074B9D2B2642A8EA009699A3 /* RxCocoa.framework in Frameworks */,
-				074B9D2C2642A8EB009699A3 /* RxRelay.framework in Frameworks */,
+				31665F092BD246F000044A73 /* RxCocoa.xcframework in Frameworks */,
+				31665F0D2BD246F000044A73 /* RxSwift.xcframework in Frameworks */,
+				31665F0B2BD246F000044A73 /* RxRelay.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,6 +764,9 @@
 		9DAB77991D6763AC007E85BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31665EFC2BD246F000044A73 /* RxCocoa.xcframework */,
+				31665F072BD246F000044A73 /* RxRelay.xcframework */,
+				31665F082BD246F000044A73 /* RxSwift.xcframework */,
 				E36BDFB81F38755F008C9D56 /* tvOS */,
 				62512C561F0EAEB90083A89F /* macOS */,
 				62512C551F0EAEB20083A89F /* iOS */,
@@ -1527,7 +1533,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExt;
 				PRODUCT_NAME = RxSwiftExt;
 				SKIP_INSTALL = YES;
@@ -1562,7 +1572,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExt;
 				PRODUCT_NAME = RxSwiftExt;
 				SKIP_INSTALL = YES;
@@ -1675,7 +1689,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1692,7 +1707,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -1710,7 +1729,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -1739,7 +1762,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExt;
 				PRODUCT_NAME = RxSwiftExt;
@@ -1774,7 +1801,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExt;
 				PRODUCT_NAME = RxSwiftExt;
@@ -1801,7 +1832,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1824,7 +1859,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1873,7 +1912,11 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExt;
 				PRODUCT_NAME = RxSwiftExt;
@@ -1907,7 +1950,11 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExt;
 				PRODUCT_NAME = RxSwiftExt;
 				SDKROOT = appletvos;
@@ -1932,7 +1979,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExtTests;
 				PRODUCT_NAME = RxSwiftTests;
@@ -1953,7 +2004,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RxSwiftCommunity.RxSwiftExtTests;
 				PRODUCT_NAME = RxSwiftTests;
 				SDKROOT = appletvos;
